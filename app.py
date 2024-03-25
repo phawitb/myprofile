@@ -1,15 +1,25 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
+st.set_page_config(layout="wide")
+
 #----------------------Hide Streamlit footer----------------------------
 hide_st_style = """
-#MainMenu {visibility: hidden;}
-footer {visibility: hidden;}
-header {visibility: hidden;}
-"""
+            <style>
+            .block-container {
+                padding-top: 0rem;
+                padding-bottom: 0rem;
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 #--------------------------------------------------------------------
-# st.set_page_config(layout="wide")
+
 
 
 COL1 = st.columns([1, 2],gap='large')
