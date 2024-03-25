@@ -71,7 +71,8 @@ with st.container():
         st.markdown("""I createed Retail POS Systems for Smartstore using :red[Object Detection with Convolutional Neural Networks], I retrained yolov5 object detector on images of some customized Thai product in supermarket,200 items in which I manually gathered, performed image processing, and annotated. And I intergrade with my AI-powered Retail POS Systems for smartstore.
 This work was done as part of my Master's degree in Image Processing course at at National Institute of Development Administration.""")
         st.image("store0.jpg")
-        st.video("SmartStore.mp4")
+        # st.video("SmartStore.mp4")
+        st.video("https://youtu.be/OVC_JKqEn4w")
     with COL3[1]:
         st.markdown("##### Traffic Light Control System using Deep Reinforcement Learning")
         st.markdown("""Trained a Traffic Light Control System how to Find the best strategy for optimising the average sum waiting time of traffic, in simulation, in an SUMO environment using a :red[Deep Q-Network(DQN) and Double Deep Q-Network(DDQN)]. I Used :red[Pytorch] in Python to train the agent, and used SUMO package as a simulation environment. This work was done as part of my Master's degree research at National Institute of Development Administration.""")
