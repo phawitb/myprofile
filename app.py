@@ -59,7 +59,8 @@ This project was part of my Bachelor's degree research at Chulachomklao Royal Mi
     with COL3[1]:
         st.markdown("##### Rubik")
         st.markdown("I created an algorithm capable of solving the Rubik's Cube problem using :red[IDA*] and applied my custom algorithm wuth machine learning :red[regression model.]")
-        st.video("AiRubrick_fixed.mp4")
+        # st.video("AiRubrick_fixed.mp4")
+        st.video("https://youtu.be/H9LnXKCRwQs")
 
 st.markdown("""---""")
 #project3,4
@@ -78,7 +79,8 @@ This work was done as part of my Master's degree in Image Processing course at a
         components.iframe("https://docs.google.com/presentation/d/e/2PACX-1vRUQaxjCtRwAOyK3aTJuDUcJi69p5Ght2xDZGmS7NbIqAEKFyvKCN8Np0h9mDTw3Mtfyq4PbfnPHLJc/embed?start=false&loop=false&delayms=3000", height=480)
        
         
-        st.video("sumo.mp4")
+        # st.video("sumo.mp4")
+        st.video("https://youtu.be/Q0dV2F0qEzs")
 
 st.markdown("""---""")
 #project3,4
@@ -91,7 +93,8 @@ with st.container():
     with COL3[1]:
         st.markdown("##### Target-Tracking")
         st.markdown("I developed a target tracking system to track people and identify a specific target person in videos. I retrained the :red[Object Detection] and :red[DeepSORT] model for tracking people in videos and utilized image similarity techniques to identify the target person.")
-        st.video("deepsort.mp4")
+        # st.video("deepsort.mp4")
+        st.video("https://youtu.be/gIvHAsaPw7I")
 
         
 # #project3
