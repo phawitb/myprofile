@@ -1,6 +1,6 @@
 import streamlit as st
 import streamlit.components.v1 as components
-
+st.set_page_config(layout="wide")
 st.markdown(
     """
     <style>
@@ -15,7 +15,7 @@ st.markdown(
 )
 
 
-st.set_page_config(layout="wide")
+
 
 COL1 = st.columns([1, 2],gap='large')
 with st.container():
