@@ -117,8 +117,8 @@ COL3 = st.columns([1,4.5,4.5,1],gap='small')
 with st.container():
     with COL3[1]:
         st.markdown("##### Face Recognition")
-        st.markdown("####### Thid vsdjbvsjdfvnd sdfbn dnvd cjdnf dfn  dnvsdf jndfkjvdn")
-        st.video("https://www.youtube.com/watch?v=oqt_T0Da7OA")
+        st.markdown("I build a Face detection and recognition model using FaceNet, :red[Tensorflow] and :red[keras]")
+        st.image("facerecognition.png")
     with COL3[2]:
         st.markdown("##### Target-Tracking")
         st.markdown("I developed a target tracking system to track people and identify a specific target person in videos. I retrained the :red[Object Detection] and :red[DeepSORT] model for tracking people in videos and utilized image similarity techniques to identify the target person.")
