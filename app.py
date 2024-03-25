@@ -2,14 +2,14 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 # st.set_page_config(layout="wide")
-st.set_page_config(page_title="Phawit Boonrat",page_icon="🧊",layout="wide")
+st.set_page_config(page_title="Phawit Boonrat",layout="wide")
 
 
 #----------------------Hide Streamlit footer----------------------------
 hide_st_style = """
             <style>
             .block-container {
-                padding-top: 0rem;
+                padding-top: 3rem;
                 padding-bottom: 0rem;
                 padding-left: 1rem;
                 padding-right: 1rem;
@@ -68,8 +68,8 @@ with st.container():
 st.markdown("""---""")
 
 with st.container():
-    COL2 = st.columns([1,3,6,1],gap='small')
-    with COL2[1]:
+    COL3 = st.columns([1,4.5,4.5,1],gap='small')
+    with COL3[1]:
         st.header("Projects")
 
 #project1,2
